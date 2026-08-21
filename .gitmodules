@@ -1,0 +1,3 @@
+[submodule "nfcxpansion-driver"]
+	path = /
+	url = https://github.com/Las-Vejas/nfcxpansion.git
