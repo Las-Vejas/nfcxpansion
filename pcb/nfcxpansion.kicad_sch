@@ -1414,6 +1414,12 @@
 		(uuid "209c50b0-3405-4cbc-8193-4161211309e3")
 	)
 	(junction
+		(at 82.55 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2640988b-2c28-4157-b359-3861b06f6649")
+	)
+	(junction
 		(at 116.84 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1432,12 +1438,6 @@
 		(uuid "441114bd-ae5c-4b30-b597-501f7529e5f2")
 	)
 	(junction
-		(at 82.55 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a2a20dd-73e2-466b-9629-59ffe99adb4a")
-	)
-	(junction
 		(at 116.84 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1454,8 +1454,36 @@
 		(uuid "1ba241a6-2e81-4433-98e9-b905521b9236")
 	)
 	(no_connect
+		(at 153.67 83.82)
+		(uuid "365d6537-ce95-420c-8b14-34ebc6629b06")
+	)
+	(no_connect
 		(at 110.49 66.04)
 		(uuid "58f38e8c-6d75-4182-aaac-9489a6174dad")
+	)
+	(no_connect
+		(at 181.61 86.36)
+		(uuid "7667e016-48d2-42ba-87dc-cc9a781f39e4")
+	)
+	(no_connect
+		(at 181.61 78.74)
+		(uuid "89afd44c-fc67-4817-8f7b-2a01db23e957")
+	)
+	(no_connect
+		(at 181.61 83.82)
+		(uuid "99be7260-b5f7-4a99-a036-f452aa6d431c")
+	)
+	(no_connect
+		(at 153.67 86.36)
+		(uuid "ca1830c6-80bb-45cd-aa49-3e40e82e5461")
+	)
+	(no_connect
+		(at 153.67 81.28)
+		(uuid "ce464e55-74f0-4957-84c5-ec3d66d0b2c4")
+	)
+	(no_connect
+		(at 181.61 81.28)
+		(uuid "ed437c2b-8a2b-4e18-b641-65d95d70f462")
 	)
 	(wire
 		(pts
@@ -1586,6 +1614,16 @@
 			(type default)
 		)
 		(uuid "52bc9ea7-3701-4a10-bee5-2d35b346af7d")
+	)
+	(wire
+		(pts
+			(xy 82.55 63.5) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a14f46f-16c6-479f-ab7f-26592e4baeb7")
 	)
 	(wire
 		(pts
@@ -1779,16 +1817,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 60.96) (xy 82.55 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4ef3a5b-4eb6-4510-bf66-1ceeda5e1a7f")
-	)
-	(wire
-		(pts
 			(xy 191.77 71.12) (xy 181.61 71.12)
 		)
 		(stroke
@@ -1944,6 +1972,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 142.24 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C324823"
 			(at 142.24 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2270,6 +2309,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2906861"
+			(at 115.57 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "105754d5-484d-4d7a-b530-d15dda5c0b6f")
 		)
@@ -2369,7 +2419,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 64.77 0)
+		(at 82.55 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2379,7 +2429,7 @@
 		(dnp no)
 		(uuid "6bafb047-e853-47e0-b0b0-fa28a4081e32")
 		(property "Reference" "R5"
-			(at 84.074 60.706 0)
+			(at 84.074 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2390,7 +2440,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 84.074 63.246 0)
+			(at 84.074 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2401,7 +2451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.772 64.77 90)
+			(at 80.772 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2412,7 +2462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 64.77 0)
+			(at 82.55 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2473,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 64.77 0)
+			(at 82.55 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C140158"
+			(at 82.55 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,6 +2512,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 74.93 59.69 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2458,10 +2520,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "72c22526-838b-49f9-af4b-8378fae559a5")
 		(property "Reference" "R4"
-			(at 77.47 58.4199 0)
+			(at 72.39 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2472,7 +2533,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 77.47 60.9599 0)
+			(at 72.39 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2483,7 +2544,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.152 59.69 90)
+			(at 76.708 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2505,6 +2566,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 74.93 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C140158"
 			(at 74.93 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2675,6 +2747,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C5137486"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "867bff51-08cb-436d-843b-6e0f4a65c45c")
 		)
@@ -2835,6 +2918,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2654815"
+			(at 97.79 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "4f3c517d-3bf4-4ef5-b607-4986f5a69294")
 		)
@@ -2940,6 +3034,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C140197"
 			(at 134.62 67.31 0)
 			(hide yes)
 			(show_name no)
