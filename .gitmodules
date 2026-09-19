@@ -1,3 +1,3 @@
 [submodule "nfcxpansion-driver"]
-	path = /
+	path = nfcxpansion-driver
 	url = https://github.com/Las-Vejas/nfcxpansion-driver
